@@ -3,14 +3,15 @@
 Problem: 167. Two Sum II - Input Array Is Sorted
 Platform: LeetCode
 Difficulty: Medium
-Topic: Array, Two Pointers, Binary Search
+Topic: Array, Two Pointers 
 Pattern: Two Pointers 
 ==================================================
 
 Approach 1: Brute Force
-- Use two nested loops to check all pairs of numbers
+- Check every possible pair using two nested loops.
+- Does not utilize the sorted property of the array.
 Time: O(n^2)
-space: O(1) 
+Space: O(1)
 
 --------------------------------------------------
 
@@ -20,6 +21,7 @@ Approach 2: Optimal
 Time: O(n)
 Space: O(1)
 Pattern: Two Pointers
+
 ==================================================
 */
 
