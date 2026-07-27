@@ -20,7 +20,7 @@ public:
         size_t pos; // In short: size_t pos; creates a variable to store the index returned by s.find(part). 
                     // size_t is the standard unsigned integer type used for string/container sizes and indices in C++.
 
-        while ((pos = s.find(part)) != string::npos) {
+        while ((pos = s.find(part)) != string::npos) { // string::npos means "not found"
             s.erase(pos, part.length());
         }
 
