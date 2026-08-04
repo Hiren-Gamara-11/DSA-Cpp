@@ -24,7 +24,7 @@ public:
         long long start = prices[0], profit = 0;
         for(int i=1; i<prices.size(); i++){
             long long minus = prices[i] - start;
-            profit = max(pro, minus);
+            profit = max(profit, minus);
                 if(prices[i] < start){
                     start = prices[i];
                 }
