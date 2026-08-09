@@ -1,26 +1,18 @@
 /*
-# 48. Rotate Image
+==================================================
+    48. Rotate Image
 
-**Difficulty:** Medium
-**Topic:** Array, Matrix, Simulation
+    Difficulty: Medium
+    Topic: Array, Matrix
 
-## Approach
+    Approach:
+    1. Transpose the matrix.
+    2. Reverse each row.
+    3. This rotates the matrix 90° clockwise.
 
-1. **Transpose the matrix**
-
-   * Swap `matrix[i][j]` with `matrix[j][i]`.
-   * Only iterate `j` from `i + 1` to avoid swapping elements twice.
-
-2. **Reverse every row**
-
-   * After transposing, reverse each row.
-   * This produces a **90° clockwise rotation**.
-
-### Complexity
-
-* **Time:** `O(n²)`
-* **Space:** `O(1)` — in-place rotation
-
+    Time Complexity: O(n²)
+    Space Complexity: O(1)
+==================================================
 */
 
 #include <vector>
