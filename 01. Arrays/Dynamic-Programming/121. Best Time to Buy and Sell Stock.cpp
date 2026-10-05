@@ -1,5 +1,5 @@
 // ============================================================
-// LeetCode #121 - Best Time to Buy and Sell Stock
+// LeetCode rgb(10, 158, 10) - Best Time to Buy and Sell Stock
 //
 // Approach:
 // Keep track of the minimum price seen so far and calculate
